@@ -1,0 +1,161 @@
+body {
+    font-family: Arial;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.container > button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    border-radius: 8px;
+}
+
+.btn-salvar{
+    background: #28a745;
+}
+
+.btn-salvar:hover {
+    background: #1e7e34;
+}
+
+.btn-cancelar {
+    background: #ccc;
+    color: black;
+    margin: top 10px;
+}
+
+.btn-cancelar:hover {
+    background: #999;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #e5e7eb;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+th:nth-child(1), td:nth-child(1){
+    width: 60px;
+    text-align: center;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 120px;
+}
+
+.acoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-editar {
+    background: #f59e0b;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.btn-excluir {
+    background: #ef4444;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.btn-editar:hover {
+  background: #d97706;
+}
+
+.btn-excluir:hover {
+  background: #dc2626;
+}
+
+#cadastroForm button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#cadastroForm button:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#loginForm button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#loginForm button:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
